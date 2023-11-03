@@ -1,6 +1,7 @@
 
 import Principal "mo:base/Principal";
 import Text "mo:base/Text";
+import Nat "mo:base/Nat";
 
 actor {
 
@@ -69,6 +70,7 @@ actor {
   public type TransactionRange = {
       transactions: [Transaction];
   };
+  public type QueryArchiveFn = shared query (GetTransactionsRequest) -> async TransactionRange;
 
   let sneed = actor ("r7cp6-6aaaa-aaaag-qco5q-cai") : actor {
       icrc1_balance_of(args : Account) : async Balance;
@@ -94,7 +96,7 @@ actor {
   };
 
   public func get_transactions(i : TxIndex, length : Nat) : async TransactionRange {
-    let req : GetTransactionRrequest = {
+    let req : GetTransactionsRequest = {
       start = i;
       length = length;
     };
