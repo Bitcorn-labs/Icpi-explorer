@@ -21,6 +21,15 @@ async function openDashboard() {
 
 }
 
+async function fetchTransactions() { 
+  var txs_i = document.getElementById("find_txs_id").value;
+
+  var txs_response = await sneed_explorer_backend.get_transactions(txs_i, 10);
+  alert(txs_response);
+}
+
+
+
 async function fetchTransactionInfo() { 
   var tx_i = document.getElementById("find_tx_id").value;
   fetchInfoI(null, tx_i)
@@ -153,6 +162,12 @@ document.getElementById("find_account").addEventListener("click", async (e) => {
 document.getElementById("find_tx").addEventListener("click", async (e) => {    
   e.preventDefault();    
   await fetchTransactionInfo();  
+  return false;
+});
+
+document.getElementById("find_txs").addEventListener("click", async (e) => {    
+  e.preventDefault();    
+  await fetchTransactions();  
   return false;
 });
 
