@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "sneed_explorer_backend": {
+      "main": "src/sneed_explorer_backend/main.mo",
+      "type": "motoko"
+    },
+    "sneed_explorer_frontend": {
+      "dependencies": [
+        "sneed_explorer_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/sneed_explorer_frontend/src/index.html"
+      },
+      "source": [
+        "src/sneed_explorer_frontend/assets",
+        "dist/sneed_explorer_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

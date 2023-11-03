@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>sneed_explorer</title>
+    <base href="/" />
+    <link rel="icon" href="favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <!--img src="logo2.svg" alt="DFINITY logo" />
+      <br />
+      <br />
+      <form action="#">
+        <label for="name">Enter your name: &nbsp;</label>
+        <input id="name" alt="Name" type="text" />
+        <button type="submit">Click Me!</button>
+      </form>
+      <section id="greeting"></section-->
+      <b id="topbar" class="titlebar">Sneed Snoop</b>
+      <section id="dashboard" style="visibility: visible; position:absolute; top: 60px; left: 10px;">
+        <b class="sectionheader">Show the transaction with the following index.</b>
+        <table width="95%">
+          <tr><td width="100">Transaction index: </td><td><input id="find_tx_id" type="text" /><input id="find_tx" type="button" value="Go" /></b></td></tr>
+        </table>
+        <br />
+        <b class="sectionheader">Show the account with the following address.</b>
+        <table width="95%">
+          <tr><td width="100">Account address: </td><td><input id="find_account_id" type="text" /><input id="find_account" type="button" value="Go" /></b></td></tr>
+        </table>
+        <br />
+        <b class="sectionheader">Show starting at the following index.</b>
+        <table width="95%">
+          <tr><td width="100">Transaction index: </td><td><input id="find_txs_id" type="text" /><input id="find_txs" type="button" value="Go" /></b></td></tr>
+        </table>
+        <section id="txs"></section>
+      </section>
+
+      <section id="account" style="visibility: hidden; position:absolute; top: 60px; left: 10px;">
+        <b class="sectionheader">Account</b>
+        <table width="95%">
+          <tr><td width="10%">Address: </td><td><b id="account_id" class="value"></b></td></tr>
+          <tr><td>Balance: </td><td><b id="account_balance" class="value"></b></td></tr>
+        </table>
+      </section>
+      <section id="transaction" style="visibility: hidden; position:absolute; top: 60px; left: 10px;">
+        <b class="sectionheader">Transaction</b>
+        <table width="95%">
+          <tr><td>Index: </td><td><b id="tx_id" class="value"></b></td></tr>
+          <tr><td width="10%">Type: </td><td><b id="tx_kind" class="value"></b></td></tr>
+          <tr><td>Status: </td><td><b id="tx_status" class="value">Completed</b></td></tr>
+          <tr><td>Timestamp: </td><td><b id="tx_timestamp" class="value"></b></td></tr>
+          <tr><td>From: </td><td><b id="tx_from_account" class="value"></b></td></tr>
+          <tr><td>To: </td><td><b id="tx_to_account" class="value"></b></td></tr>
+          <tr><td>Amount: </td><td><b id="tx_amount" class="value"></b></td></tr>
+          <tr><td>Fee: </td><td><b id="tx_fee" class="value"></b></td></tr>
+          <tr><td>Memo: </td><td><b id="tx_memo" class="value"></b></td></tr>
+        </table>
+        <table id="txnav" width="95%" style="border: 0;">
+          <tr><td width="45%"></td><td nowrap><a id="prev" href="#">&lt; Previous</a></td><td width="10"></td><td nowrap><a id="next" href="#">Next &gt;</a></td><td width="45%"></td></tr>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
