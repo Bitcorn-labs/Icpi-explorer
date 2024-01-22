@@ -71,7 +71,7 @@ button[type="submit"] {
   
   #transaction tr:nth-child(even){background-color: #262626;}
   
-  #transaction tr:hover {background-color: #222;}
+  #transaction tr:hover {background-color: #164;}
   
   #transaction th {
     padding-top: 12px;
@@ -97,7 +97,7 @@ button[type="submit"] {
   
   #account tr:nth-child(even){background-color: #262626;}
   
-  #account tr:hover {background-color: #222;}
+  #account tr:hover {background-color: #164;}
   
   #account th {
     padding-top: 12px;
@@ -123,7 +123,7 @@ button[type="submit"] {
   
   #txnav tr:nth-child(even){background-color: #262626;}
   
-  #txnav tr:hover {background-color: #222;}
+  #txnav tr:hover {background-color: #164;}
   
   #txnav th {
     padding-top: 12px;
