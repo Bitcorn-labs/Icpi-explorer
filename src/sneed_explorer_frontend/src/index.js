@@ -93,8 +93,8 @@ async function fetchInfoI(acct_i, tx_i) {
     document.getElementById("tx_from_account").innerHTML = spinner;
     document.getElementById("tx_to_account").innerHTML = spinner;
 
-    document.getElementById("prev").href = 'https://xjwoo-pqaaa-aaaak-afc3a-cai.icp0.io/?tx=' + (parseInt(tx_id) - 1);
-    document.getElementById("next").href = 'https://xjwoo-pqaaa-aaaak-afc3a-cai.icp0.io/?tx=' + (parseInt(tx_id) + 1);
+    document.getElementById("prev").href = 'https://suemn-5aaaa-aaaap-qb62q-cai.icp0.io/?tx=' + (parseInt(tx_id) - 1);
+    document.getElementById("next").href = 'https://suemn-5aaaa-aaaap-qb62q-cai.icp0.io/?tx=' + (parseInt(tx_id) + 1);
 
     var tx_response = await sneed_explorer_backend.get_transaction(parseInt(tx_id));  
 
