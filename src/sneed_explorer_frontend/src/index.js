@@ -67,7 +67,7 @@ async function fetchInfoI(acct_i, tx_i) {
       var acct_balance = Number(acct_response);  
       var acct_balance_div = acct_balance / decimals_div;
       document.getElementById("account_id").innerHTML = acct_id;
-      document.getElementById("account_balance").innerHTML = acct_balance_div + " SNEED";
+      document.getElementById("account_balance").innerHTML = acct_balance_div + " Bitcorn";
 
     } else {
 
