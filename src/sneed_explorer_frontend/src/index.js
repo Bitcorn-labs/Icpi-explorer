@@ -42,7 +42,7 @@ async function fetchAccountInfo() {
 
 async function fetchInfoI(acct_i, tx_i) {
   let decimals = 12;
-  let decimals_div = Number(1000000000000);
+  let decimals_div = Number(100000000);
   const urlParams = new URLSearchParams(window.location.search);
   const acct_id = acct_i ?? urlParams.get('acct');
   const tx_id = tx_i ?? urlParams.get('tx');
