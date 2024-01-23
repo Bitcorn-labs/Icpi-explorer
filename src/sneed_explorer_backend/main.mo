@@ -72,13 +72,13 @@ actor {
   };
   public type QueryArchiveFn = shared query (GetTransactionsRequest) -> async TransactionRange;
 
-  let sneed = actor ("r7cp6-6aaaa-aaaag-qco5q-cai") : actor {
+  let sneed = actor ("edypu-bqaaa-aaaak-afknq-cai") : actor {
       icrc1_balance_of(args : Account) : async Balance;
       get_transaction(i : TxIndex) : async ?Transaction;
       get_transactions(i : GetTransactionsRequest) : async GetTransactionsResponse;
   };  
 
-  let sneed_archive = actor ("2pwqi-6yaaa-aaaag-qcpda-cai") : actor {
+  let sneed_archive = actor ("edypu-bqaaa-aaaak-afknq-cai") : actor {
       get_transaction(i : TxIndex) : async ?Transaction;
       get_transactions(i : GetTransactionsRequest) : async TransactionRange;
   };  
