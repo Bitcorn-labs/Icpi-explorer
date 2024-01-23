@@ -126,8 +126,8 @@ async function fetchInfoI(acct_i, tx_i) {
       document.getElementById("tx_fee").innerHTML = tx_fee + " Bitcorn";
       document.getElementById("tx_memo").innerHTML = tx_memo ?? "";
   
-      document.getElementById("tx_from_account").innerHTML = '<a href="https://xjwoo-pqaaa-aaaak-afc3a-cai.icp0.io/?acct=' + tx_from_account + '">' + tx_from_account + '</a>';
-      document.getElementById("tx_to_account").innerHTML = '<a href="https://xjwoo-pqaaa-aaaak-afc3a-cai.icp0.io/?acct=' + tx_to_account + '">' + tx_to_account + '</a>';
+      document.getElementById("tx_from_account").innerHTML = '<a href="https://suemn-5aaaa-aaaap-qb62q-cai.icp0.io/?acct=' + tx_from_account + '">' + tx_from_account + '</a>';
+      document.getElementById("tx_to_account").innerHTML = '<a href="https://suemn-5aaaa-aaaap-qb62q-cai.icp0.io/?acct=' + tx_to_account + '">' + tx_to_account + '</a>';
   
     } else {
 
