@@ -122,8 +122,8 @@ async function fetchInfoI(acct_i, tx_i) {
       document.getElementById("tx_kind").innerHTML = tx_kind;
       document.getElementById("tx_status").innerHTML = "Completed";
       document.getElementById("tx_timestamp").innerHTML = new Date(tx_time);
-      document.getElementById("tx_amount").innerHTML = tx_amount_div + " SNEED";
-      document.getElementById("tx_fee").innerHTML = tx_fee + " SNEED";
+      document.getElementById("tx_amount").innerHTML = tx_amount_div + " Bitcorn";
+      document.getElementById("tx_fee").innerHTML = tx_fee + " Bitcorn";
       document.getElementById("tx_memo").innerHTML = tx_memo ?? "";
   
       document.getElementById("tx_from_account").innerHTML = '<a href="https://xjwoo-pqaaa-aaaak-afc3a-cai.icp0.io/?acct=' + tx_from_account + '">' + tx_from_account + '</a>';
