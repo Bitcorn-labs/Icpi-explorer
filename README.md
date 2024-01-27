@@ -1,14 +1,25 @@
-BITCORN explorer
+BITCORN explorer;
+corntoshis vision realized
 
-corntoshis vision realized,
-currently, ICPI tokens are all the rage with a new generation of IC users.
-a big issue for corntoshi is the lack of documentation or tooling this tokens have,
-and thus they are likely to at best, fizzle out because they cannot move about the ic
-ecosystem, or at worst are a hotbed for short term unethical actors lauching repetive
-funnt logoed projects. the hope of this tool, once finished, is that users and devs
-alike can feel comfertable utilizing icpi projects. 
-this explorer produces transactuon urls which are nessascary for dapps like Openchat.
-It also lets users query particular transactions and wallets. 
+a Bircorn Labs service
+
+this git repo is for the production dapp found below:
+https://suemn-5aaaa-aaaap-qb62q-cai.icp0.io
+
+Recently, $GHOST has developed a service where users can deploy and then mint new tokens via their icpi.xyz dapp. This appears to have become immensely popular with traders and users of the internet computer.
+
+Bitcorn Labs noticed that while these tokens are icrc1 standard and fairly advanced they lacked a block explorer and other infrastructure to effectively move about the ecosystem. So this dapp (https://suemn-5aaaa-aaaap-qb62q-cai.icp0.io/ 3) was introduced to produce tx URLs so tokens could be enabled on Openchat and other platforms that require a tx url.
+
+Furthermore, this will allow users to query holders, and transactions because services like Icscan.io and ic.house do not pick up ICPI tokens effectively.
+
+below you will find the main production dapp.
+
+main dapp/devlopment enviorment:
+https://aalgg-jaaaa-aaaak-afkwq-cai.icp0.io
 
 
-special thanks to corntoshi, tendys team & oss providers  Sneed Dao
+
+special thanks oss providers  Sneed Dao
+
+-sneed dao peovided the base code for the project directly with the sneed snoop fork
+-the sns cansiter indexing tool from snassy.icp was also instrumental in the devlopment of the the main dapp
