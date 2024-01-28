@@ -21,9 +21,11 @@ this dapp can
 the code in this repo is the original dapp, based in sneed snoop. its configured in a format where it can be cloned and another cansiter can be inserted and it should would, albeit with an ugly ui. 
 
 special thanks oss providers  Sneed Dao
+special thanks to ghost team for candid interface instructions
 
--sneed dao peovided the base code for the project directly with the sneed snoop fork
+-sneed dao provided the base code for the project directly with the sneed snoop fork
 -the sns cansiter indexing tool from snassy.icp was also instrumental in the devlopment of the the main dapp
+-ghost team has been extremely supporting in sharing cansiter and candid interface information for the growth of the project
 
 
 
