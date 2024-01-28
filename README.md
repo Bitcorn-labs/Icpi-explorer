@@ -8,8 +8,9 @@ a Bitcorn Labs service
 The corn explorer dapp can be found here:
 https://suemn-5aaaa-aaaap-qb62q-cai.icp0.io
 ----------------------
-this repo corntains the original backend code which has been tweaked and explanded on in the current prodction dapp
-
+***
+this repo corntains the original backend code which has been tweaked and expanded on in the current prodction dapp
+***
 Recently, $GHOST has developed a service where users can deploy and then mint new tokens via their icpi.xyz dapp. This appears to have become immensely popular with traders and users of the internet computer.
 
 Bitcorn Labs noticed that while these tokens are icrc1 standard and fairly advanced they lacked a block explorer and other infrastructure to effectively move about the ecosystem. So this dapp was introduced to produce tx URLs so tokens could be enabled on Openchat and other platforms that require a tx url.
@@ -32,5 +33,5 @@ special thanks to ghost team for candid interface instructions
 
 
 -------------------
-Disclaimer: This code, software and dapps producable from this git and in the inked canister urls do not contain investment advice. All information found on this code, software and dapps producable from this git and in the inked canister urls can be inaccurate, and is presented for entertainment purposes only. No responsibility is accepted by this site for inaccurate information presented here. Engage with these code, software and dapps producable from this git and in the inked canister urls at your own risk and discretion. Always conduct your own research and consult with financial professionals before participating in any crypto or blockchain activities
+Disclaimer: This code, software and dapps producable from this git and in the linked canister urls do not contain investment advice. All information found on this code, software and dapps producable from this git and in the linked canister urls can be inaccurate, and is presented for entertainment purposes only. No responsibility is accepted by this site for inaccurate information presented here. Engage with these code, software and dapps producable from this git and in the linked canister urls at your own risk and discretion. Always conduct your own research and consult with financial professionals before participating in any crypto or blockchain activities
 -------------------
