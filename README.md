@@ -12,15 +12,13 @@ Bitcorn Labs noticed that while these tokens are icrc1 standard and fairly advan
 
 Furthermore, this will allow users to query holders, and transactions because services like Icscan.io and ic.house do not pick up ICPI tokens effectively.
 
-------------    ------------  --------------  ---------      ------------
+Bitcorn Labs hopes that this took enables users to research projects on ICPI as well as icpi developers to grow their projects within the internet computer ecosystem.
 
-main dapp/devlopment enviorment:
-https://aalgg-jaaaa-aaaak-afkwq-cai.icp0.io
+this dapp can 
+-query token balances
+-call tx's in a url format widely used across the IC
 
-The main dapp can query balances of all ICPI tokens via a principle id search and will soon be able to query txs. 
-
-Bitcorn Labs hopes that this took enables users to research projects on ICPI as well as icpi developers to grow their projects within the internet computer ecosystem. 
-
+the code in this repo is the original dapp, based in sneed snoop. its configured in a format where it can be cloned and another cansiter can be inserted and it should would, albeit with an ugly ui. 
 
 special thanks oss providers  Sneed Dao
 
