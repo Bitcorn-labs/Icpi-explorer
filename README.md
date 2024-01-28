@@ -6,7 +6,6 @@ a Bitcorn Labs service
 
 The corn explorer dapp can be found here:
 https://suemn-5aaaa-aaaap-qb62q-cai.icp0.io
-
 ----------------------
 this repo corntains the original backend code which has been tweaked and explanded on in the current prodction dapp
 
