@@ -3,8 +3,12 @@ corntoshis vision realized
 
 a Bitcorn Labs service
 
-this git repo is for the production dapp found below:
+The corn explorer dapp found below:
 https://suemn-5aaaa-aaaap-qb62q-cai.icp0.io
+
+----------------------
+this repo comtains the original backend code which has been tweaked and explanded on in the current prodction dapp
+----------------------
 
 Recently, $GHOST has developed a service where users can deploy and then mint new tokens via their icpi.xyz dapp. This appears to have become immensely popular with traders and users of the internet computer.
 
