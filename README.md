@@ -26,11 +26,11 @@ the code in this repo is the original dapp, based in sneed snoop. its configured
 
 special thanks oss providers  Sneed Dao
 special thanks to ghost team for candid interface instructions
-
 -sneed dao provided the base code for the project directly with the sneed snoop fork
 -the sns cansiter indexing tool from snassy.icp was also instrumental in the devlopment of the the main dapp
 -ghost team has been extremely supporting in sharing cansiter and candid interface information for the growth of the project
 
 
-
+-------------------
 Disclaimer: This code, software and dapps producable from this git and in the inked canister urls do not contain investment advice. All information found on this code, software and dapps producable from this git and in the inked canister urls can be inaccurate, and is presented for entertainment purposes only. No responsibility is accepted by this site for inaccurate information presented here. Engage with these code, software and dapps producable from this git and in the inked canister urls at your own risk and discretion. Always conduct your own research and consult with financial professionals before participating in any crypto or blockchain activities
+-------------------
