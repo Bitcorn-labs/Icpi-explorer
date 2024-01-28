@@ -4,7 +4,7 @@ corntoshis vision realized
 
 a Bitcorn Labs service
 
-The corn explorer dapp found below:
+The corn explorer dapp can be found here:
 https://suemn-5aaaa-aaaap-qb62q-cai.icp0.io
 
 ----------------------
